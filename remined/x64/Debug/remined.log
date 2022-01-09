@@ -1,0 +1,29 @@
+﻿  remined.cpp
+remined.obj : error LNK2019: unresolved external symbol glewInit referenced in function main
+remined.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+remined.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+remined.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+remined.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+remined.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+remined.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+remined.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+remined.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+remined.obj : error LNK2001: unresolved external symbol __glewBufferData
+remined.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+remined.obj : error LNK2001: unresolved external symbol __glewAttachShader
+remined.obj : error LNK2001: unresolved external symbol __glewCompileShader
+remined.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+remined.obj : error LNK2001: unresolved external symbol __glewCreateShader
+remined.obj : error LNK2001: unresolved external symbol __glewDeleteProgram
+remined.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+remined.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+remined.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+remined.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+remined.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+remined.obj : error LNK2001: unresolved external symbol __glewShaderSource
+remined.obj : error LNK2001: unresolved external symbol __glewUseProgram
+remined.obj : error LNK2001: unresolved external symbol __glewValidateProgram
+remined.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+C:\Users\snowd\Desktop\Stuff\remined\remined\dependencies\glfw\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\snowd\Desktop\Stuff\remined\remined\dependencies\glew\lib\Release\Win32\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\snowd\Desktop\Stuff\remined\remined\x64\Debug\remined.exe : fatal error LNK1120: 25 unresolved externals
